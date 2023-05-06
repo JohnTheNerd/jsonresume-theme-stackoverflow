@@ -360,10 +360,9 @@ section .location {
 
 .section header .date {
   float: right;
-  font-size: 1rem;
   padding: 0.1em 0;
   color: #000;
-  font-weight: 600;
+  font-weight: 445;
 }
 
 .keywords,
