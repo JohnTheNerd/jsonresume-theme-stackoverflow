@@ -11,11 +11,22 @@
         &#8220;&#32;{{reference}}&#32;&#8221;
       </blockquote>
       {{/if}}
+      {{#if position}}
+      <div class="name">
+        {{name}} | {{position}}
+      </div>
+      {{else}}
       {{#if name}}
       <div class="name">
         {{name}}
       </div>
       {{/if}}
+      {{/if}}
+      {{#if contact}}
+      <div class="contact">
+        {{contact}}
+      </div>
+      {{/if}}      
     </div>
     {{/each}}
   </section>

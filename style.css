@@ -359,7 +359,7 @@ section .location {
 }
 
 .section header .date {
-  display: block;
+  float: right;
   font-size: 1rem;
   padding: 0.1em 0;
   color: #606d76;
