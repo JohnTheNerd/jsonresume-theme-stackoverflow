@@ -102,6 +102,7 @@ hgroup,
 menu,
 nav,
 section {
+  margin-top: 1em;
   display: block;
 }
 
