@@ -203,9 +203,11 @@ strong {
 }
 
 section .location {
+  float: right;
+  margin-top: 1em;
   margin-right: 0.5em;
   color: #606d76;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 #contact {
@@ -261,7 +263,7 @@ section .location {
 .main-summary {
   background: #f1f8ff;
   padding: 0.6em 0.5em;
-  margin-top: 10.5rem;
+  margin-top: 0.3rem;
 }
 
 .main-summary p {

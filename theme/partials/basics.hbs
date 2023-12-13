@@ -1,5 +1,27 @@
 {{#resume.basics}}
 	<header id="header" class="clear">
+		{{#location}}
+		<section class="location">
+			<span class="location">
+				<span>🌐</span>
+				{{#if address}}
+				<span class="address">{{address}},</span>
+				{{/if}}
+				{{#if postalCode}}
+				<span class="postalCode">{{postalCode}},</span>
+				{{/if}}
+				{{#if city}}
+				<span class="city">{{city}},</span>
+				{{/if}}
+				{{#if region}}
+				<span class="region">{{region}}</span>
+				{{/if}}
+				{{#if countryCode}}
+				<span class="countryCode">{{countryCode}}</span>
+				{{/if}}
+			</span>
+		</section>
+		{{/location}}
 		{{#if image}}
 		<img class="image" src="{{image}}" alt="{{name}}" />
 		<div class="middle">
@@ -12,26 +34,6 @@
 			<h2 class="label">{{label}}</h2>
 		</div>
 		{{/if}}
-
-		{{#location}}
-		<span class="location">
-			{{#if address}}
-			<span class="address">{{address}},</span>
-			{{/if}}
-			{{#if postalCode}}
-			<span class="postalCode">{{postalCode}},</span>
-			{{/if}}
-			{{#if city}}
-			<span class="city">{{city}},</span>
-			{{/if}}
-			{{#if region}}
-			<span class="region">{{region}}</span>
-			{{/if}}
-			{{#if countryCode}}
-			<span class="countryCode">{{countryCode}}</span>
-			{{/if}}
-		</span>
-		{{/location}}
 
 		{{#birthDate birth}}
 		{{/birthDate}}
