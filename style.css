@@ -102,7 +102,6 @@ hgroup,
 menu,
 nav,
 section {
-  margin-top: 1em;
   display: block;
 }
 
@@ -261,8 +260,8 @@ section .location {
 
 .main-summary {
   background: #f1f8ff;
-  padding: 1.2em 1em;
-  margin-top: 1rem;
+  padding: 0.6em 0.5em;
+  margin-top: 10.5rem;
 }
 
 .main-summary p {
@@ -272,7 +271,7 @@ section .location {
 .section-title {
   display: inline-block;
   background: #fff;
-  padding: 0 1em 0.3em 0;
+  padding: 0 0.75em 0.5em 0;
   color: #ff6d1f;
   text-transform: uppercase;
   font-weight: 600;
@@ -291,7 +290,7 @@ section .location {
 .section > header::after {
   position: absolute;
   left: 0;
-  top: 0.7em;
+  top: 0.5em;
   height: 1px;
   background: #ccc;
   content: "";
@@ -307,7 +306,7 @@ section .location {
 .section > section > header {
   font-size: 1.38rem;
   position: relative;
-  margin-top: 0.7em;
+  margin-top: 0.5em;
 }
 
 .section > section > header:first-of-type {
@@ -321,6 +320,9 @@ section .location {
   color: #aaa;
   line-height: 1;
   opacity: 0;
+}
+.section > section > section > .website {
+  float: right;
 }
 
 .position,
@@ -560,8 +562,7 @@ section .location {
 }
 
 #references .item {
-  padding-left: 0.5em;
-  border-left: 5px solid #ff6d1f;
+  padding-left: 0;
 }
 
 .section > section > section {
@@ -676,6 +677,7 @@ section .location {
   }
   .section .location {
     padding-bottom: 0.15rem;
+    float: right;
   }
   .section > section > section {
     margin: 0 0 1em 0;

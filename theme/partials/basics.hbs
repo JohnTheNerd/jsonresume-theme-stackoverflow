@@ -36,7 +36,8 @@
 		{{#birthDate birth}}
 		{{/birthDate}}
 
-		<div id="contact">
+		{{#if profiles.length}}
+		<div id="profiles">
 			{{#if website}}
 			<div class="website">
 				<span class="fas fa-external-link-alt"></span>
@@ -55,10 +56,6 @@
 				<a class="hide-href-print" href="tel:{{phone}}">{{phone}}</a>
 			</div>
 			{{/if}}
-		</div>
-
-		{{#if profiles.length}}
-		<div id="profiles">
 			{{#each profiles}}
 			<div class="item">
 				{{#if network}}
@@ -66,7 +63,7 @@
 					<span class="fab fa-{{spaceToDash network}} {{spaceToDash network}} social"></span>
 					{{#if url}}
 					<span class="url">
-						<a target="_blank" href="{{url}}">{{url}}</a>
+						<a target="_blank" href="{{url}}">{{username}}</a>
 					</span>
 					{{else}}
 					<span>{{username}}</span>
