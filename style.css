@@ -233,8 +233,8 @@ section .location {
   flex-flow: row wrap;
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 #header > div {
@@ -276,7 +276,7 @@ section .location {
 .section-title {
   display: inline-block;
   background: #fff;
-  padding: 0.5em 0.75em 0.2em 0;
+  padding: 0 0.75em 0.5em 0;
   color: #ff6d1f;
   text-transform: uppercase;
   font-weight: 600;
