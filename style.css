@@ -232,6 +232,7 @@ section .location {
   flex-flow: row wrap;
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
+  padding-bottom: 0.3em;
 }
 
 #header > div {
